@@ -17,7 +17,7 @@ module top(
     // MCU -> FPGA data
     input wire [7:0] i_operand_data,
     // FPGA -> MCU data
-    output wire [7:0] o_product_data
+    output reg [7:0] o_product_data
 );
 
 
@@ -42,7 +42,7 @@ module top(
             if (i_write_enable)
                 operands <= {operands, i_operand_data[7:0]};
             if (i_read_enable)
-                {o_product_data, output_p} = {output_p, 8'b0};
+                {o_product_data, output_p} <= {output_p, 8'b0};
             if (i_mult_ce)
                 output_p <= mult_p;
         end
