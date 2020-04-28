@@ -1,0 +1,25 @@
+## FMC
+LOCATE COMP "i_clk" SITE "C9";
+
+LOCATE COMP "i_reset" SITE "A10";
+LOCATE COMP "i_write_enable" SITE "B10";
+LOCATE COMP "i_read_enable" SITE "A15";
+LOCATE COMP "i_mult_ce" SITE "B15";
+
+LOCATE COMP "i_operand_data[0]"  SITE "J15";
+LOCATE COMP "i_operand_data[1]"  SITE "J16";
+LOCATE COMP "i_operand_data[2]"  SITE "K15";
+LOCATE COMP "i_operand_data[3]"  SITE "K16";
+LOCATE COMP "i_operand_data[4]"  SITE "L15";
+LOCATE COMP "i_operand_data[5]"  SITE "L16";
+LOCATE COMP "i_operand_data[6]"  SITE "M15";
+LOCATE COMP "i_operand_data[7]"  SITE "M16";
+
+LOCATE COMP "o_product_data[0]"  SITE "J14";
+LOCATE COMP "o_product_data[1]"  SITE "H14";
+LOCATE COMP "o_product_data[2]"  SITE "D11";
+LOCATE COMP "o_product_data[3]"  SITE "C11";
+LOCATE COMP "o_product_data[4]"  SITE "R16";
+LOCATE COMP "o_product_data[5]"  SITE "T15";
+LOCATE COMP "o_product_data[6]"  SITE "R14";
+LOCATE COMP "o_product_data[7]"  SITE "T14";
